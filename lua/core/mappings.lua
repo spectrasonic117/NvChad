@@ -15,14 +15,13 @@ M.general = {
     ["<C-k>"] = { "<Up>", "Move up" },
   },
 
+  -- switch between windows
   n = {
     ["<Esc>"] = { ":noh <CR>", "Clear highlights" },
-    -- switch between windows
     ["<C-h>"] = { "<C-w>h", "Window left" },
     ["<C-l>"] = { "<C-w>l", "Window right" },
     ["<C-j>"] = { "<C-w>j", "Window down" },
     ["<C-k>"] = { "<C-w>k", "Window up" },
-
     -- save
     ["<C-s>"] = { "<cmd> w <CR>", "Save file" },
 
@@ -247,10 +246,10 @@ M.nvimtree = {
 
   n = {
     -- toggle
-    ["<C-n>"] = { "<cmd> NvimTreeToggle <CR>", "Toggle nvimtree" },
+    --["<C-n>"] = { "<cmd> NvimTreeToggle <CR>", "Toggle nvimtree" },
 
     -- focus
-    ["<leader>e"] = { "<cmd> NvimTreeFocus <CR>", "Focus nvimtree" },
+    --["<leader>e"] = { "<cmd> NvimTreeFocus <CR>", "Focus nvimtree" },
   },
 }
 
