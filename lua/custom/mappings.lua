@@ -13,7 +13,6 @@ M.general = {
   },
 }
 
-
 M.nvimtree = {
   plugin = true,
 
