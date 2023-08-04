@@ -70,7 +70,7 @@ M.ui = {
          "                      █████      ",
          "                    ▄██████      ",
          "             ▄███████████▀       ",
-         "             	 ▀▀▀▀▀▀           ",
+         "                 ▀▀▀▀▀▀          ",
     },
 
     buttons = {
@@ -80,6 +80,7 @@ M.ui = {
       { "  Bookmarks", "Spc m a", "Telescope marks" },
       { "  Themes", "Spc t h", "Telescope themes" },
       { "  Mappings", "Spc c h", "NvCheatsheet" },
+      { "  Files", " Spc e", "Toggle Files"}
     },
   },
 
