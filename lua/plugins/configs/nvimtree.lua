@@ -1,6 +1,6 @@
 local options = {
   filters = {
-    dotfiles = true,
+    dotfiles = false,
     exclude = { vim.fn.stdpath "config" .. "/lua/custom" },
   },
   disable_netrw = true,
@@ -10,7 +10,7 @@ local options = {
   sync_root_with_cwd = true,
   update_focused_file = {
     enable = true,
-    update_root = true,
+    update_root = false,
   },
   view = {
     adaptive_size = false,
@@ -44,7 +44,7 @@ local options = {
         file = true,
         folder = true,
         folder_arrow = true,
-        git = true,
+        git = false,
       },
 
       glyphs = {
