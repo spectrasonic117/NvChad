@@ -19,9 +19,9 @@ local default_plugins = {
     "NvChad/ui",
     branch = "v2.0",
     lazy = false,
-    config = function()
-      require "nvchad_ui"
-    end,
+ --   config = function()
+ --     require "nvchad_ui"
+ --   end,
   },
 
   {
@@ -53,7 +53,7 @@ local default_plugins = {
   {
     "nvim-tree/nvim-web-devicons",
     opts = function()
-      return { override = require("nvchad_ui.icons").devicons }
+      return { override = require"nvchad.icons.devicons" }
     end,
     config = function(_, opts)
       dofile(vim.g.base46_cache .. "devicons")

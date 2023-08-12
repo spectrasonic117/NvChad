@@ -23,7 +23,7 @@ M.general = {
     ["<C-j>"] = { "<C-w>j", "Window down" },
     ["<C-k>"] = { "<C-w>k", "Window up" },
 
-  -- switch between windows with vim keys
+  -- switch between windows with vim keys --added by Spectrasonic
     ["<C-Left>"] = { "<C-w>h", "Window left" },
     ["<C-Right>"] = { "<C-w>l", "Window right" },
     ["<C-Down>"] = { "<C-w>j", "Window down" },
@@ -252,7 +252,7 @@ M.nvimtree = {
   plugin = true,
 
   n = {
-    -- toggle
+    -- toggle --added by Spectrasonic
     ["<C-e>"] = { "<cmd> NvimTreeToggle <CR>", "Toggle nvimtree" },
     ["<leader>e"] = { "<cmd> NvimTreeToggle <CR>", "Toggle nvimtree" },
 
