@@ -35,6 +35,7 @@ git clone https://github.com/spectrasonic117/NvChad.git ~/.config/nvim --depth 1
 
 ```bash
 git clone git@github.com:spectrasonic117/NvChad.git ~/.config/nvim --depth 1 && nvim
+
 ```
 
 ## Showcase
