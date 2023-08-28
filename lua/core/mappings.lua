@@ -15,9 +15,9 @@ M.general = {
     ["<C-k>"] = { "<Up>", "Move up" },
   },
 
-  -- switch between windows
   n = {
     ["<Esc>"] = { ":noh <CR>", "Clear highlights" },
+    -- switch between windows
     ["<C-h>"] = { "<C-w>h", "Window left" },
     ["<C-l>"] = { "<C-w>l", "Window right" },
     ["<C-j>"] = { "<C-w>j", "Window down" },
@@ -28,7 +28,7 @@ M.general = {
     ["<C-Right>"] = { "<C-w>l", "Window right" },
     ["<C-Down>"] = { "<C-w>j", "Window down" },
     ["<C-Up>"] = { "<C-w>k", "Window up" },
-    
+
     -- save
     ["<C-s>"] = { "<cmd> w <CR>", "Save file" },
 
@@ -178,7 +178,7 @@ M.lspconfig = {
 
     ["<leader>ra"] = {
       function()
-        require("nvchad_ui.renamer").open()
+        require("nvchad.renamer").open()
       end,
       "LSP rename",
     },
@@ -252,12 +252,11 @@ M.nvimtree = {
   plugin = true,
 
   n = {
-    -- toggle --added by Spectrasonic
-    ["<C-e>"] = { "<cmd> NvimTreeToggle <CR>", "Toggle nvimtree" },
+    -- toggle
     ["<leader>e"] = { "<cmd> NvimTreeToggle <CR>", "Toggle nvimtree" },
 
     -- focus
-    ["<leader>t"] = { "<cmd> NvimTreeFocus <CR>", "Focus nvimtree" },
+    ["<C-n>"] = { "<cmd> NvimTreeFocus <CR>", "Focus nvimtree" },
   },
 }
 
