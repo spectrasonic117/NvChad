@@ -1,5 +1,5 @@
 <h1 align="center">NvChad - Spectrasonic's Fork</h1>
-
+<!-- 
 <div align="center">
 	<a href="https://nvchad.com/">Home</a>
   <span> • </span>
@@ -21,17 +21,17 @@
 [![Matrix](https://img.shields.io/badge/Matrix-40aa8b.svg?style=flat-square&logo=Matrix&logoColor=white)](https://matrix.to/#/#nvchad:matrix.org)
 [![Telegram](https://img.shields.io/badge/Telegram-blue.svg?style=flat-square&logo=Telegram&logoColor=white)](https://t.me/DE_WM)
 
-  </div>
+  </div> -->
 
 ## Install
 
-### HTTP
+**HTTP**
 
 ```bash
 git clone https://github.com/spectrasonic117/NvChad.git ~/.config/nvim --depth 1 && nvim
 ```
 
-### SSH
+**SSH**
 
 ```bash
 git clone git@github.com:spectrasonic117/NvChad.git ~/.config/nvim --depth 1 && nvim
@@ -40,11 +40,13 @@ git clone git@github.com:spectrasonic117/NvChad.git ~/.config/nvim --depth 1 && 
 
 ## Showcase
 
-<img src="https://nvchad.com/features/nvdash.webp">
+<img src="./term.png">
+
+<!-- <img src="https://nvchad.com/features/nvdash.webp">
 <img src="https://nvchad.com/banner.webp">
 
 <img src="https://nvchad.com/screenshots/onedark.webp">
-<img src="https://nvchad.com/screenshots/rxyhn1.webp">
+<img src="https://nvchad.com/screenshots/rxyhn1.webp"> -->
 
 ## What is it?
 
@@ -118,11 +120,11 @@ A fuzzy file finder, picker, sorter, previewer and much more:
 -   Useful snippets with [friendly snippets](https://github.com/rafamadriz/friendly-snippets) + [LuaSnip](https://github.com/L3MON4D3/LuaSnip).
 -   Popup mappings keysheet [whichkey.nvim](https://github.com/folke/which-key.nvim)
 
-## History
+<!-- ## History
 
 -   I (@siduck i.e creator of NvChad) in my initial days of learning to program wanted a lightweight IDE for writing code, I had a very low end system which was like 1.4ghz pentium + 4gb ram & HDD. I was into web dev stuff so many suggested me to use vscode but that thing was very heavy on my system, It took more ram than my browser! ( minimal ungoogled chromium ) so I never tried it again, sublime text was nice but the fear of using proprietary software XD for a linux user bugged me a lot. Then I tried doom-emacs which looked pretty but it was slow and I was lost within its docs, I tried lunarvim but too lazy to read the docs. Doom-emacs and lunarvim inspired me to make a config which is the prettiest + very fast and simple.
 
--   I'm decent at ricing i.e customizing system and making it look pretty so I posted my neovim rice on [neovim subreddit](https://www.reddit.com/r/neovim/comments/m3xl4f/neovim_rice/), my neovim-dotfiles github repo blew up and then I had to come up with a name, I was amazed by the chad meme lol so I put NvChad as the name, the chad word in here doesnt literally mean the chad guy but in the sense such as chad linux vs windows i.e meaning superior, best etc. NvChad was made for my personal use but it gained some popularity which inspired me to make a public config i.e config usable by many and less hassle to update as everyone's going to use the same base config (NvChad) with their custom modifications (which are gitignored so that wont mess up), without the custom config stuff users would have to keep a track of every commit and copy paste git diffs to manually update nvchad.
+-   I'm decent at ricing i.e customizing system and making it look pretty so I posted my neovim rice on [neovim subreddit](https://www.reddit.com/r/neovim/comments/m3xl4f/neovim_rice/), my neovim-dotfiles github repo blew up and then I had to come up with a name, I was amazed by the chad meme lol so I put NvChad as the name, the chad word in here doesnt literally mean the chad guy but in the sense such as chad linux vs windows i.e meaning superior, best etc. NvChad was made for my personal use but it gained some popularity which inspired me to make a public config i.e config usable by many and less hassle to update as everyone's going to use the same base config (NvChad) with their custom modifications (which are gitignored so that wont mess up), without the custom config stuff users would have to keep a track of every commit and copy paste git diffs to manually update nvchad. -->
 
 ## :gift_heart: Support
 
@@ -137,3 +139,5 @@ If you like NvChad and would like to support & appreciate it via donation then I
 
 -   [Elianiva](https://github.com/elianiva) helped me with NeoVim Lua related issues many times, NvChad wouldn't exist without his help at all as he helped me in my initial neovim journey!
 -   @lorvethe for making the beautiful NvChad logo.
+
+-   The creator of NVChad (Oviously)
