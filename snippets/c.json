@@ -1,0 +1,18 @@
+{
+  "setup": {
+    "prefix": "setup",
+    "body": [
+      "void setup() {", "	$0",
+      "}"
+    ],
+    "description": "crea un void setup"
+  },
+  "loop": {
+    "prefix": "loop",
+    "body": [
+      "void loop() {", "	$0",
+      "}"
+    ],
+    "description": "crea un void loop "
+  }
+}

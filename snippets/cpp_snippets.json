@@ -1,0 +1,90 @@
+{
+  "setup": {
+    "prefix": "setup",
+    "body": [
+      "void setup() {",
+      "  $0",
+      "}"
+    ],
+    "description": "crea un void setup for arduino"
+  },
+  "loop": {
+    "prefix": "loop",
+    "body": [
+      "void loop() {",
+      "  $0",
+      "}"
+    ],
+    "description": "crea un void loop for Arduino"
+  },
+  "init": {
+    "prefix": "init",
+    "body": [
+      "#include <iostream>",
+      "using std::cout;",
+      "using std::cin;",
+      "using std::endl;",
+      "using namespace std;",
+      "int main()",
+      "  {",
+      "   $0",
+      " ",
+      "   return 0;",
+      " }"
+    ],
+    "description": "Init"
+  },
+  "print": {
+    "prefix": "print",
+    "body": [
+      "cout << \"$1\" << endl;"
+    ],
+    "description": "Print a display text"
+  },
+  "for": {
+    "prefix": "for",
+    "body": [
+      "for (int 1 = 0; i < length; i++)",
+      "   {",
+      "    $0",
+      "   }"
+    ],
+    "description": "Print a For"
+  },
+  "switch": {
+    "prefix": "switch",
+    "body": [
+      "switch ( $0 ) {",
+      " case $1 :",
+      "   $2",
+      "   break;",
+      "\n",
+      " default",
+      "   cout << \"No valid Option\" << endl;",
+      " }"
+    ],
+    "description": "Print a Switch"
+  },
+  "if": {
+    "prefix": "if",
+    "body": [
+      "if ( $0 ){",
+      "   $1",
+      "   }",
+      "else {",
+      "   ",
+      "   }"
+    ],
+    "description": "Print a if"
+  },
+  "if_else": {
+    "prefix": "if-else",
+    "body": [
+      "else if ( $0 )",
+      " {",
+      " $1",
+      " }"
+    ],
+    "description": "Print a else-if"
+  }
+}

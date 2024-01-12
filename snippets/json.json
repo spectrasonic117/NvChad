@@ -1,0 +1,14 @@
+{
+  "mcmetainit": {
+    "prefix": "mcmeta",
+    "body": [
+      "{",
+      "  \"pack\": {",
+      "    \"pack_format\": $1,",
+      "    \"description\": \"§$2\"",
+      "  }",
+      "}"
+    ],
+    "description": "print a mcmeta code for datapacks and texturepacks"
+  }
+}

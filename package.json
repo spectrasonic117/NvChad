@@ -1,0 +1,58 @@
+{
+    "name": "snippets",
+    "engines": {
+        "vscode": "^1.11.0"
+    },
+    "contributes": {
+        "snippets": [
+            {
+                "language": "all",
+                "path": "snippets/all.json"
+            },
+            {
+                "language": "lua",
+                "path": "snippets/lua.json"
+            },
+            {
+                "language": "astro",
+                "path": "snippets/astro.json"
+            },
+            {
+                "language": "cpp",
+                "path": "snippets/cpp.json"
+            },
+            {
+                "language": "javascript",
+                "path": "snippets/javascript.json"
+            },
+            {
+                "language": "json",
+                "path": "snippets/json.json"
+            },
+            {
+                "language": "markdown",
+                "path": "snippets/markdown.json"
+            },
+            {
+                "language": "mcfunction",
+                "path": "snippets/mcfunction.json"
+            },
+            {
+                "language": "python",
+                "path": "snippets/python.json"
+            },
+            {
+                "language": "shellscript",
+                "path": "snippets/shellscript.json"
+            },
+            {
+                "language": "vue",
+                "path": "snippets/vue.json"
+            },
+            {
+                "language": "yaml",
+                "path": "snippets/yaml.json"
+            }
+        ]
+    }
+}

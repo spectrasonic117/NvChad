@@ -1,0 +1,26 @@
+{
+  "New Entry": {
+    "prefix": "entry",
+    "body": [
+      "[Desktop Entry]",
+      "Type=Application",
+      "Encoding=UTF-8",
+      "Name=App name",
+      "Comment=Comment",
+      "Exec=Path to bin",
+      "Icon=Path to icon",
+      "Terminal=false",
+      "Categories=Application"
+    ],
+    "description": "Start a new Instancee"
+  }
+}
+// [Desktop Entry]
+// Type=Application
+// Encoding=UTF-8
+// Name=PolyMC
+// Comment=Minecraft Launcher
+// Exec=/home/spectra/opt/PolyMC/bin/polymc
+// Icon=/home/spectra/opt/PolyMC/share/icons/hicolor/scalable/apps/org.polymc.PolyMC.svg
+// Terminal=false
+// Categories=Application

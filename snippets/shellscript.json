@@ -1,0 +1,60 @@
+{
+	"init": {
+		"prefix": "init",
+		"body": [
+			"#!/bin/sh",
+			"",
+			"$1"
+		],
+		"description": "Create a init comment to console"
+	},
+	"echo-color": {
+		"prefix": "ecolor",
+		"body": [
+			"echo \"$(tput setaf $1)$2 $(tput sgr 0)\"",
+			"$3"
+		],
+		"description": "Create a echo line with color"
+	},
+	"conditional": {
+		"prefix": "if",
+		"body": [
+			"if [ $1 ]; then",
+			"	$2",
+			"fi"
+		],
+		"description": "Create a echo line with color"
+	},
+	"conditional-else": {
+		"prefix": "ife",
+		"body": [
+			"if [ $1 ]; then",
+			"	$2",
+			"else",
+			"	$3",
+			"fi"
+		],
+		"description": "Create a echo line with color"
+	},
+	"case": {
+		"prefix": "case",
+		"body": [
+			"case $1 in",
+			"	$2)",
+			"		$3",
+			"		;;",
+			"	*)",
+			"		$4",
+			"		;;",
+			"esac"
+		],
+		"description": "Create a case"
+	},
+	"colors": {
+		"prefix": "colors",
+		"body": [
+			"# === Colors ===""BLACK=\"\\e[1;30m\"""RED=\"\\e[1;31m\"""GREEN=\"\\e[1;32m\"""YELLOW=\"\\e[1;33m\"""BLUE=\"\\e[1;34m\"""MAGENTA=\"\\e[1;35m\"""CYAN=\"\\e[1;36m\"""WHITE=\"\\e[1;37m\"""RES=\"\\e[0m\"""""# === Background Colors ===""BBLACK=\"\\e[1;40m\"""BRED=\"\\e[1;41m\"""BGREEN=\"\\e[1;42m\"""BYELLOW=\"\\e[1;43m\"""BBLUE=\"\\e[1;44m\"""BMAGENTA=\"\\e[1;45m\"""BCYAN=\"\\e[1;46m\"""BWHITE=\"\\e[1;47m\"""BRES=\"\\e[0m\""
+		],
+		"description": "Create a case"
+	},
+}

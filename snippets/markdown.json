@@ -1,0 +1,20 @@
+{
+	"spectra sign": {
+		"prefix": [
+			"sign",
+		],
+		"body": [
+			"<br> <hr> <div style=\"pointer-events: none;\" align=\"right\"> <img src=\"https://bitbucket.org/Spectrasonic/svg-rep/raw/9564eae55e8d19008c9c01ad4d218ce381e9a6fa/SVG%20icons/dev-color.svg\" width=\"25px\" style=\"pointer-events: none;\"> with <img src=\"https://bitbucket.org/Spectrasonic/svg-rep/raw/9564eae55e8d19008c9c01ad4d218ce381e9a6fa/SVG%20icons/heart-color.svg\" width=\"25px\" style=\"pointer-events: none;\"> by <b><a href=\"http://twitter.com/spectrasonic117\"  target=\"_blank\">Spectrasonic</a></b></div>"
+		],
+		"description": "Spectrasonic's Markdown Sign"
+	}
+	  "sign": {
+		"prefix": [
+			"sign",
+		],
+		"body": [
+			"<p align='right'><img src='https://raw.githubusercontent.com/spectrasonic117/spectrasonic117/main/assets/dev.svg' width='25'> with <img src='https://raw.githubusercontent.com/spectrasonic117/spectrasonic117/main/assets/heart.svg' width='20'> by <strong>Spectrasonic</strong></p>"
+		],
+		"description": "Spectrasonic's Markdown Sign"
+	}
+}

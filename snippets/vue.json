@@ -1,0 +1,28 @@
+{
+  "Template Vue": {
+    "prefix": "template",
+    "body": [
+      "<template>",
+    "	<!-- HTML Component Here -->",
+      "</template>",
+      "",
+      "<script lang=\"ts\">",
+      "export default {",
+    "	name: \"Template\",",
+    "	data() {",
+    "		return {",
+    "			title: \"Hello From Astro 🚀\",",
+    "			pararaph: \"This is a page preview of astro\",",
+    "		};",
+    "	},",
+      "};",
+      "</script>",
+      "",
+      "<style>",
+      "/* Put Style Here */",
+      "</style>",
+      ""
+    ],
+    "description": "Template Vue"
+  }
+}

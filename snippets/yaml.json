@@ -1,0 +1,41 @@
+{
+	// }
+	"Prettier config": {
+		"prefix": "pretty",
+		"body": [
+			"${1}- files:""    - \"**/*.html\"""    - \"**/*.css\"""    - \"**/*.js\"""    - \"**/*.ts\"""  options:""    semi: true""    useTabs: true""    tabWidth: 4""    jsxBracketSameLine: true""    singleAttributePerLine: true""    bracketSameLine: true""""- files: \".prettierrc\"""  options:""    parse: yaml"
+		],
+		"description": "Configuration for Prettier"
+	},
+	"PrettierRC": {
+		"prefix": "prettiter",
+		"body": [
+			"singleAttributePerLine: false",
+			"bracketSameLine: true",
+			"useTabs: true",
+			"tabWidth: 4",
+			"semi: true",
+			"",
+			"overrides:",
+			"    - files: .prettierrc",
+			"      options:",
+			"          parser: yaml",
+			""
+		],
+		"description": "PrettierRC nuevo"
+	},
+	"astro": {
+		"prefix": "astro-prettier",
+		"body": [
+			"overrides:",
+			"  - files: \"**/*.astro\"",
+			"    options:",
+			"      # parser: \"astro\"",
+			"      tabWidth: 4",
+			"      useTabs: true",
+			"      bracketSpacing: true",
+			"      singleAttributePerLine: false"
+		],
+		"description": "Prettier for astro"
+	}
+}

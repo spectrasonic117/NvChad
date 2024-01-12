@@ -1,0 +1,62 @@
+{
+    "Astro Basse": {
+        "prefix": "base",
+        "body": [
+            "---",
+            "interface Props {",
+            "  title: string",
+            "  description: string",
+            "}",
+            "",
+            "const { title, description } = Astro.props",
+            "---",
+            "",
+            "<html lang='en'>",
+            "  <head>",
+            "    <meta charset='utf-8' />",
+            "    <link rel='icon' type='image/svg+xml' href='/favicon.svg' />",
+            "    <meta name='generator' content={Astro.generator} />",
+            "    <meta name='viewport' content='width=device-width' />",
+            "    <meta name='description' content={description} />",
+            "    <title>{title}</title>",
+            "  </head>",
+            "  <body>",
+            "    <slot />",
+            "  </body>",
+            "</html>",
+            "",
+            "<style lang='scss'>",
+            "  /* --- Root Styles Here ---- */",
+            "</style>",
+            ""
+        ],
+        "description": "Astro Basse"
+    },
+    "Astro component": {
+        "prefix": "component",
+        "body": [
+            "---",
+            "interface Props {",
+			"	string: string",
+            "}",
+            "",
+            "const { string } = Astro.props",
+            "// Scripts or imports Here",
+            "---",
+            "",
+            "<section class='section'>",
+			"	<!-- Component Markup Here -->",
+            "</section>",
+            "",
+            "<style lang='scss'>",
+			"	/* Component Styles Here */",
+            "</style>",
+            "",
+            "<script is:inline>",
+			"	/* Javascrpt Code Here */",
+            "</script>",
+            ""
+        ],
+        "description": "Astro component"
+    }
+}

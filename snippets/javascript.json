@@ -1,0 +1,27 @@
+{
+	"Create express server": {
+		"prefix": "express-server",
+		"body": [
+			"const express = require('express');",
+			"const fs = require('fs');",
+			"const app = express();",
+			"",
+			"let port = process.env.PORT || 3000;",
+			"",
+			"app.get('/', (__req, response) => {",
+		"	fs.readFile('./dist/index.html', 'utf8', (err, data) => {",
+		"		if (err) {",
+		"			console.error(err);",
+		"			return response.status(500).send('An error occurred');",
+		"		}",
+		"		response.send(data);",
+		"	});",
+			"});",
+			"",
+			"app.listen(port, () => {",
+		"	console.log(`Server ready in: http://[::]:\\${port}`);",
+			"});"
+		],
+		"description": "Create express server"
+	}
+}

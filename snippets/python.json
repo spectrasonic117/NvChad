@@ -1,0 +1,10 @@
+{
+	"Print to console": {
+		"prefix": "init",
+		"body": [
+			"#!/usr/bin/env python3.11",
+			"$1"
+		],
+		"description": "Prints init enviroment"
+	}
+}
