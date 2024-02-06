@@ -36,27 +36,87 @@
         "prefix": "component",
         "body": [
             "---",
-            "interface Props {",
-			"	string: string",
-            "}",
             "",
-            "const { string } = Astro.props",
-            "// Scripts or imports Here",
             "---",
             "",
             "<section class='section'>",
-			"	<!-- Component Markup Here -->",
+            "",
             "</section>",
-            "",
-            "<style lang='scss'>",
-			"	/* Component Styles Here */",
-            "</style>",
-            "",
-            "<script is:inline>",
-			"	/* Javascrpt Code Here */",
-            "</script>",
             ""
         ],
         "description": "Astro component"
+    },
+    "Astro properties": {
+        "prefix": "props",
+        "body": [
+            "interface Props {",
+            "  string: string",
+            "}",
+            "const {string} = Astro.props"
+        ],
+        "description": "astro properties"
+    },
+    "JS script": {
+        "prefix": "script",
+        "body": [
+            "<script is:inline>",
+            "${1}",
+            "</script>"
+        ],
+        "description": "astro script section"
+    },
+    "Style scss": {
+        "prefix": "style",
+        "body": [
+            "<style lang='scss'>",
+            "${1}",
+            "</style>"
+        ],
+        "description": "astro scss style section"
+    },
+    "Media Mobile": {
+        "prefix": "mobile",
+        "body": [
+            "@media (width <= 425px) {",
+            "  ${1}",
+            "}"
+        ],
+        "description": "Create server"
+    },
+    "Media Tablet": {
+        "prefix": "tablet",
+        "body": [
+            "@media (426px <= width <= 768px) {",
+            "  ${1}",
+            "}"
+        ],
+        "description": "Create server"
+    },
+    "Media Laptop": {
+        "prefix": "laptop",
+        "body": [
+            "@media (769px <= width <= 1024px) {",
+            " ${1}",
+            "}"
+        ],
+        "description": "Create server"
+    },
+    "Media laptopl": {
+        "prefix": "laptopl",
+        "body": [
+            "@media (1025px <= width <= 1440px) {",
+            "  ${1}",
+            "}"
+        ],
+        "description": "Media laptopl"
+    },
+    "Media 4k": {
+        "prefix": "4k",
+        "body": [
+            "@media (1441px <= width <= 2560px) {",
+            "  ${1}",
+            "}"
+        ],
+        "description": "Media 4k"
     }
 }
